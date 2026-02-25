@@ -1,0 +1,15 @@
+# Python dependencies for audio-bias-pavilion dataset builder
+
+# Core dataset building
+datasets>=2.14.0
+huggingface-hub>=0.19.0
+
+# Geolocation
+geopy>=2.4.0
+
+# Audio processing (required for duration normalization)
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Utilities
+python-dotenv>=1.0.0
